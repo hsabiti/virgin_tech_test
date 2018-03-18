@@ -1,0 +1,6 @@
+# Vendors Folder #
+###################
+config.php
+composer.lock
+.idea/
+vendor/

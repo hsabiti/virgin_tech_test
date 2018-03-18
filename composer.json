@@ -1,0 +1,13 @@
+{
+
+    "description": "VIRGIN TECH TEST",
+
+    "autoload": {
+        "classmap": [
+            "includes/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
