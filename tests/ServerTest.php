@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 use VIRGIN\Server;
 use VIRGIN\Database;
 
-final class RomanNumeralsGenerateTest extends TestCase
+final class ServerTest extends TestCase
 {
     public function testName(): void
     {
