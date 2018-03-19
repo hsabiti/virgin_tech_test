@@ -61,7 +61,7 @@ class Server
     public function OwnerEmail()
     {
         $servers = new Servers();
-        return $server = $servers->fetchOne()->getGroup()->getOwnerEmail();
+        return $servers->fetchOne()->getGroup()->getOwnerEmail();
     }
 
 }
