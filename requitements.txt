@@ -1,0 +1,17 @@
+Design a set of MySQL database tables describing a set of servers, the attributes are:
+·         ServerName
+·         ServerGroup
+·         ServerIp
+·         GroupName
+·         GroupOwnerEmail
+·         GroupDescription
+·         ApplicationVersion
+·         ApplicationName
+·         ApplicationDescription
+ 
+Create a Server Class in PHP where $dbh represents an already connected database handle which presents the following public methods:
+·         __construct($dbh)
+·         Name()
+·         Applications()
+·         Version($Application)
+·         OwnerEmail()
